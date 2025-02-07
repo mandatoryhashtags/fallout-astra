@@ -4,5 +4,14 @@
             "name": "Module Settings Name",
             "hint": "Description of what this setting does"
         }
+    },
+    "fallout-astra": {
+        "settings": {
+            "name": "Astra Genesis Settings",
+            "hint": "Configuration options for Astra Genesis"
+        }
+    },
+    "FALLOUT": {
+        "SkillAstrogation": "Astrogation"
     }
 }
