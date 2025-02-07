@@ -40,7 +40,7 @@
             "path": "languages/en.json"
         }
     ],
-    "url": "your-github-repository-url",
-    "manifest": "your-raw-github-manifest-url",
-    "download": "your-release-download-url"
+    "url": "https://github.com/mandatoryhashtags/fallout-astra",
+    "manifest": "https://raw.githubusercontent.com/mandatoryhashtags/fallout-astra/main/module.json",
+    "download": "https://github.com/mandatoryhashtags/fallout-astra/archive/refs/heads/main.zip"
 }
