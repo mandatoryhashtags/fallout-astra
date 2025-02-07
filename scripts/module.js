@@ -10,11 +10,17 @@ Hooks.once('setup', async function () {
     }
 
     // Register the new Astrogation skill
+    const astrogationSkill = {
+        label: "FALLOUT.SkillAstrogation",
+        attribute: "int",
+        defaultValue: 2,
+        group: "advanced"  // This makes it an advanced skill
+    };
+
+    // Add to both CONFIG and the system's skill definitions
     if (CONFIG.FALLOUT.skills) {
-        CONFIG.FALLOUT.skills['astrogation'] = {
-            label: "FALLOUT.SkillAstrogation",
-            attribute: "int"  // Based on Intellect
-        };
+        CONFIG.FALLOUT.skills['astrogation'] = astrogationSkill;
+        game.fallout.config.skills['astrogation'] = astrogationSkill;
         console.log('Fallout Astra | Added Astrogation skill');
     }
 });
