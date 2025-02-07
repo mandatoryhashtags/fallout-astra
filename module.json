@@ -1,1 +1,46 @@
- 
+{
+    "id": "fallout-astra",
+    "title": "Astra Genesis for 2d20",
+    "description": "Adds Astra Genesis setting",
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "11",
+        "verified": "11",
+        "maximum": "12"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "fallout",
+                "type": "system",
+                "manifest": "https://github.com/Muttley/foundryvtt-fallout/releases/latest/download/system.json",
+                "compatibility": {
+                    "minimum": "11.0.0",
+                    "verified": "11.14.3"
+                }
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "MandatoryHashTags",
+            "url": "https://github.com/MandatoryHashTags"
+        }
+    ],
+    "scripts": [
+        "scripts/module.js"
+    ],
+    "styles": [
+        "styles/module.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "url": "your-github-repository-url",
+    "manifest": "your-raw-github-manifest-url",
+    "download": "your-release-download-url"
+}

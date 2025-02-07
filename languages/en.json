@@ -1,1 +1,8 @@
- 
+{
+    "your-module-name": {
+        "settings": {
+            "name": "Module Settings Name",
+            "hint": "Description of what this setting does"
+        }
+    }
+}
